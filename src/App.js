@@ -185,6 +185,11 @@ function App() {
           Upload
         </Button>
       </Box>
+      <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: 2 }}>
+        <Typography variant="body2" color="text.secondary">
+          Check out on Github: <a href="https://github.com/AlvaroSReis/hirvearchive">https://github.com/AlvaroSReis/hirvearchive</a>
+        </Typography>
+      </Box>
     </StyledContainer>
   );
 }
